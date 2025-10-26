@@ -50,3 +50,19 @@
     flex-direction: column;
   }
 }
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

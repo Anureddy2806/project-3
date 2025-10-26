@@ -1,34 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
+import './App.css';
+
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to TiffinBox</h1>
-      <p>This is my internship project — built with React!</p>
+      <header>
+        <h1>TiffinBox</h1>
+        <p>Delicious homemade meals delivered daily</p>
+      </header>
+
+      <section className="hero">
+        <img src="/images/tiffin.jpg" alt="Tiffin delivery" />
+        <button>Order Now</button>
+      </section>
+
+      <footer>
+        <p>© 2025 TiffinBox. All rights reserved.</p>
+      </footer>
     </div>
   );
 }
+
+
 
 
 
