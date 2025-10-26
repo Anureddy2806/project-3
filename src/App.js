@@ -10,7 +10,14 @@ function App() {
 
       <section className="hero">
         <img src="/images/tiffin.jpg" alt="Tiffin delivery" />
-        <button>Order Now</button>
+        <a
+          href="https://wa.me/919876543210"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none' }}
+        >
+          <button>Order Now</button>
+        </a>
       </section>
 
       <footer>
@@ -19,4 +26,5 @@ function App() {
     </div>
   );
 }
+
 export default App;
